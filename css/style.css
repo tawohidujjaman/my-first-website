@@ -151,31 +151,17 @@ h2{
   
 
 /* work end */
-
-
-.contact-of-my {
-  background-color: teal;
-  text-align: center;
-  padding: 25px;
-  
-}
-.contact-of-my a{
-  display: inline-block;
-  padding-right: 25px;
-  text-decoration: none;
-  color: white;
- 
   
   
 }
-.my-contact a:hover{
+/* .my-contact a:hover{
   font-size: 1.2em;
   color:deepskyblue;
 
-}
+} */
 
 
-.fa-envelope-square {
+/* .fa-envelope-square {
   color: red;
   font-size: 25px;
 }
@@ -190,4 +176,28 @@ h2{
 .fa-envelope-square{
   color: #0A66C2;
   font-size: 25px;
+} */
+
+
+#contact{
+  padding: 25px;
+  background-color: yellowgreen;
+  text-align: center;
+  padding-right: 25px;
+
 }
+#contact a{
+  text-decoration: none;
+  padding: 15px;
+  border: 2px salmon solid;
+  font-size: 18px;
+  color: white;
+  border-radius: 10px 10px 0px 0px;
+}
+#contact a:hover{
+  background-color: springgreen;
+  font-size: 1.2em;
+
+}
+
+
