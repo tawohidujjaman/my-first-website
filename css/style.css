@@ -35,6 +35,9 @@ p{
     background-color:seagreen;
     padding: 10px;
     text-align: center;
+    position: sticky;
+    top: 5px;
+    
    
   }
   nav a{
@@ -52,6 +55,7 @@ p{
     border: white 2px solid;
     border-radius: 10px;
     font-size: 1.2em;
+      
   }
 
   /* Nab Bar End */
@@ -59,8 +63,6 @@ p{
     /* Introduction start */
 
 .container{
-  position: relative;
-  
   width: 950px;
 }
 
@@ -149,34 +151,7 @@ h2{
   width: 70%;
   float:left;
   
-
-/* work end */
-  
-  
 }
-/* .my-contact a:hover{
-  font-size: 1.2em;
-  color:deepskyblue;
-
-} */
-
-
-/* .fa-envelope-square {
-  color: red;
-  font-size: 25px;
-}
-.fa-linkedin{
-  color: #0A66C2;
-  font-size: 25px;
-}
-.fa-facebook{
-  color: #0A66C2;
-  font-size: 25px;
-}
-.fa-envelope-square{
-  color: #0A66C2;
-  font-size: 25px;
-} */
 
 
 #contact{
@@ -191,12 +166,16 @@ h2{
   padding: 15px;
   border: 2px salmon solid;
   font-size: 18px;
-  color: white;
+  color: #008AE0;
   border-radius: 10px 10px 0px 0px;
 }
 #contact a:hover{
-  background-color: springgreen;
+  background-color: #00e0e0;
   font-size: 1.2em;
+  text-transform: uppercase;
+
+}
+.project{
 
 }
 
